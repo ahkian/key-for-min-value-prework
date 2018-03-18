@@ -4,8 +4,8 @@
 def key_for_min_value(name_hash)
   answer = ""
   value_array = []
-  if name_hash.length == 0 
-    return nil 
+  if name_hash.length == 0
+    return nil
   else
     name_hash.each do |k, v|
       value_array << v
